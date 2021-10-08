@@ -1,6 +1,8 @@
 odd_nums = 0
 even_nums = 0
 print("")
+
+
 for x in range(3):
     num = int(input("Please enter a whole number: "))
 
