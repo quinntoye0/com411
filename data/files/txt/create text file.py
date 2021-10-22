@@ -1,4 +1,4 @@
-lines = "hello world"
+lines = "penut butttah\nmr bloop\nnaw\n"
 
-with open("test create 2.txt", "wt") as file:
+with open("hesocute.txt", "wt") as file:
     file.write(lines)
