@@ -14,6 +14,7 @@ def display_text(fileName):
     with open(fileName) as file:
         library = file.read()
         lines = library.split('\n')
+
         print(lines)
 
 
