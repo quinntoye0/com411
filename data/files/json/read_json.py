@@ -7,13 +7,14 @@ def read(file):
         bots = data["bots"]
         population = data["population"]
 
-        print(f"City Name: {city}")
-        print(f"Population Size: {population}")
-        for x in range(bots):
-            bot_name = bots["name"]
-
-            print(f"Bot Name: {bot_name}")
-
+        print(f"\nCity Name: {city}")
+        print(f"\nPopulation Size: {population}")
+        for bot in bots:
+            bot_name = bot["name"]
+            bots_stats = bot["stats"]
+            bots_stats_speed = bots_stats["speed"]
+            bots_stats_strength = bots_stats["strength"]
+            print(f"\nBot Name: {bot_name}\nSpeed: {bots_stats_speed}\nStrength: {bots_stats_strength}")
 
 
 def run():
