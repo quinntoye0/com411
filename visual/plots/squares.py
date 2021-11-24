@@ -38,9 +38,9 @@ def medium():
 
 def large():
     x = [1, 1, 6, 6, 1]
-    y = [1, 6, 6, 1, 1]
+    y = [1, 6, 12, 1, 1]
 
-    plt.plot(x, y, "bp-")
+    plt.plot(x, y, "b^-")
 
 
 def run():

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 
 def coordinate():
-    x = input("\nInput  x value: ")
+    x = input("\nInput x value: ")
     y = input("\nInput y value: ")
 
     return x, y
@@ -26,7 +26,7 @@ def run():
     values = path()
 
     plt.xlabel("poopy x values")
-    plt.ylabel("stinky y vaues")
+    plt.ylabel("stinky y values")
     plt.plot(values[0], values[1], 'yo-.')
     plt.show()
 
